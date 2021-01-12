@@ -40,7 +40,6 @@ def init_torch_seeds(seed=0):
     else:  # faster, less reproducible
         cudnn.benchmark, cudnn.deterministic = True, False
 
-
 def select_device(device='', batch_size=None):
     # device = 'cpu' or '0' or '0,1,2,3'
     s = f'Using torch {torch.__version__} '  # string
