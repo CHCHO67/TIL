@@ -8,6 +8,13 @@
 *.pb
 *.pbtxt
 
+## Data file
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.avi
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
